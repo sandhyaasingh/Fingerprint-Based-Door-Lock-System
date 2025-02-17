@@ -33,10 +33,9 @@ The **Fingerprint-Based Door Lock System** provides secure, keyless access using
 4. **Run the System**:
    - Once setup is complete, place your finger on the sensor to authenticate and unlock the door.
 
-![ezbot install](ezbot_install.png)
+![finerprint_system_setup](finerprint_system_setup.png)
 
 ## Source Code:
-
 ```cpp
 #include <LiquidCrystal_I2C.h>
 #include <Adafruit_Fingerprint.h>
@@ -245,7 +244,7 @@ uint8_t getFingerprintEnroll() {
 ```
 
 ## Final Setup:
-![ezbot install](ezbot_install.png)
+![finerprint_system](finerprint_system.png)
 
 ## How It Works:
 1. The fingerprint sensor scans the user's fingerprint.
